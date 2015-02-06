@@ -20,7 +20,7 @@ h3 {
 
 ul {
 	list-style: none;
-	float: left;
+	float: right;
 	padding-left: 2em;
 	margin: 0;
 }
@@ -39,11 +39,42 @@ a {
 .intro p{
 	color: #fff;
 }
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+#section0,
+#section1,
+#section2,
+#slide1,
+#slide2,
+#slide3{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#section0 {
+	background-image: url(coney.jpg);
+	opacity: .95;
+}
+
+#slide1 {
+	background-image: url(solar.png);
+}
+
+#slide2 {
+	background-image: url(sbft.png);
+}
+
+#slide3 {
+	background-image: url(cork.jpg);
+}
+
 /* Centered texts in each section
 * --------------------------------------- */
 .section{
 	text-align:center;
 }
+
 /* Fixed header and footer.
 * --------------------------------------- */
 #header, #footer{
@@ -51,16 +82,14 @@ a {
 	height: 50px;
 	display:block;
 	width: 100%;
-	background: #333;
+	/*background: #333;*/
 	z-index:9;
 	text-align:center;
 	color: #f2f2f2;
 	padding: 20px 0 0 0;
 }
+
 #header{
 	top:0px;
 }
-#footer{
-	bottom:0px;
-	height: 10px;
-}
+

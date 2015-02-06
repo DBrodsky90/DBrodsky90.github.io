@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700|Coda);
+
 h1, h2, h3{
 	font-size: 5em;
 	font-family: arial,helvetica;
@@ -33,7 +35,9 @@ li {
 a {
 	text-decoration: none;
 	color: white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 	font-size: 2em;
+	font-family: 'Roboto', 'Coda', serif;
 }
 
 form {
@@ -42,12 +46,18 @@ form {
 	margin-top: 5%;
 }
 
+label {
+	font-size: 1.5em;
+}
+
 .intro p{
 	color: #fff;
+	font-size: 1.5em;
 }
 
 #section2 h1 {
 	color: black;
+	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
 }
 
 /* Backgrounds will cover all the section
@@ -65,18 +75,23 @@ form {
 #section0 {
 	background-image: url(coney.jpg);
 	opacity: .95;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #slide1 {
 	background-image: url(solar.png);
+	/*text-shadow: -2px 0 #D711ED, 0 2px #D711ED, 2px 0 #D711ED, 0 -2px #D711ED;*/
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #slide2 {
 	background-image: url(sbft.png);
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #slide3 {
 	background-image: url(cork.jpg);
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 /* Centered texts in each section
@@ -87,7 +102,7 @@ form {
 
 /* Fixed header and footer.
 * --------------------------------------- */
-#header, #footer{
+#header {
 	position:fixed;
 	height: 50px;
 	display:block;
@@ -102,4 +117,5 @@ form {
 #header{
 	top:0px;
 }
+
 

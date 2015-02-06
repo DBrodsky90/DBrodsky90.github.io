@@ -35,9 +35,12 @@ li {
 a {
 	text-decoration: none;
 	color: white;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 	font-size: 2em;
 	font-family: 'Roboto', 'Coda', serif;
+}
+
+.menu {
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 
 form {
@@ -57,7 +60,7 @@ label {
 
 #section2 h1 {
 	color: black;
-	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
 }
 
 /* Backgrounds will cover all the section
@@ -75,23 +78,43 @@ label {
 #section0 {
 	background-image: url(coney.jpg);
 	opacity: .95;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 
 #slide1 {
 	background-image: url(solar.png);
-	/*text-shadow: -2px 0 #D711ED, 0 2px #D711ED, 2px 0 #D711ED, 0 -2px #D711ED;*/
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#slide1 h1, #slide1 p {
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#slide1 a {
+	color: black;
 }
 
 #slide2 {
 	background-image: url(sbft.png);
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#slide2 h1, #slide2 p {
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#slide2 a {
+	color: black;
 }
 
 #slide3 {
 	background-image: url(cork.jpg);
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#slide3 h1, #slide3 p {
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#slide3 a {
+	color: black;
 }
 
 /* Centered texts in each section

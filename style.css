@@ -36,8 +36,18 @@ a {
 	font-size: 2em;
 }
 
+form {
+	width: 40%;
+	padding-left: 30%;
+	margin-top: 5%;
+}
+
 .intro p{
 	color: #fff;
+}
+
+#section2 h1 {
+	color: black;
 }
 
 /* Backgrounds will cover all the section

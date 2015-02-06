@@ -63,6 +63,15 @@ label {
 	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
 }
 
+.slide p {
+	margin: 0;
+	font-size: 2em;
+}
+
+.slide a {
+	margin-top: 1%;
+}
+
 /* Backgrounds will cover all the section
 * --------------------------------------- */
 #section0,

@@ -22,7 +22,7 @@ h3 {
 
 ul {
 	list-style: none;
-	float: right;
+	float: left;
 	padding-left: 2em;
 	margin: 0;
 }
